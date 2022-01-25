@@ -103,7 +103,7 @@ $bg-color: #EFF0F2;
   &::after {
     position: absolute;
     content: "";
-    background: url(/img/line.svg)no-repeat;
+    background: url(./img/line.svg)no-repeat;
     width: 24px;
     height: 24px;
     top: 25px;
@@ -186,7 +186,7 @@ $bg-color: #EFF0F2;
   &::after {
     position: absolute;
     content: "";
-    background: url(/img/line.svg)no-repeat;
+    background: url(./img/line.svg)no-repeat;
     width: 24px;
     height: 24px;
     top: 25px;
@@ -275,7 +275,7 @@ z-index:999;
     &::after {
       position: absolute;
       content: "";
-      background: url(/img/line.svg)no-repeat;
+      background: url(./img/line.svg)no-repeat;
       width: 24px;
       height: 24px;
       top: 25px;
@@ -336,7 +336,7 @@ accordion
         &::after {
           position: absolute;
           content: '';
-          background: url(/img/plus.svg)no-repeat;
+          background: url(./img/plus.svg)no-repeat;
           width: 12px;
           height: 8px;
           top: 50%;
@@ -355,7 +355,7 @@ accordion
 
   position: absolute;
   content: '';
-  background: url(/img/minus.svg)no-repeat;
+  background: url(./img/minus.svg)no-repeat;
   width: 12px;
   height: 8px;
   top: 50%;
@@ -521,7 +521,7 @@ opacity: 0;
   @include mq('sp') {
     display: block;
     width: 100%;
-    background: url(/img/top.png)no-repeat;
+    background: url(./img/top.png)no-repeat;
     background-size: cover;
   }
 
@@ -574,7 +574,7 @@ opacity: 0;
 
     .top_img {
       padding-top: 105.128%;
-      background: url(/img/top.png)no-repeat;
+      background: url(./img/top.png)no-repeat;
       background-size: contain;
       background-size: cover;
     }
@@ -783,7 +783,7 @@ opacity: 0;
           content: "";
           width: 14px; 
           height: 10px;
-          background: url(/img/check.svg)no-repeat;
+          background: url(./img/check.svg)no-repeat;
           top: 50%;
           left: 0;
           transform: translateY(-50%);
@@ -1033,7 +1033,7 @@ opacity: 0;
   &:not(:last-child):after {
     position: absolute;
     content: "";
-    background: url(/img/frow-arrow.png)no-repeat;
+    background: url(./img/frow-arrow.png)no-repeat;
     width: 42px;
     height: 9px;
     top: 85px;
@@ -1123,7 +1123,7 @@ opacity: 0;
 
   .w {
     width: 70px;
-    background: url(/img/line2.svg)no-repeat;
+    background: url(./img/line2.svg)no-repeat;
     background-position: center;
   }
 
