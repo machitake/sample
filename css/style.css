@@ -86,7 +86,7 @@ img {
 .btn::after {
   position: absolute;
   content: "";
-  background: url(./img/line.svg) no-repeat;
+  background: url(../img/line.svg);
   width: 24px;
   height: 24px;
   top: 25px;
@@ -196,7 +196,7 @@ img {
 .header_right-btn::after {
   position: absolute;
   content: "";
-  background: url(./img/line.svg) no-repeat;
+  background: url(../img/line.svg) no-repeat;
   width: 24px;
   height: 24px;
   top: 25px;
@@ -353,7 +353,7 @@ accordion
 .ac_header .i_box::after {
   position: absolute;
   content: '';
-  background: url(./img/plus.svg) no-repeat;
+  background: url(../img/plus.svg) no-repeat;
   width: 12px;
   height: 8px;
   top: 50%;
@@ -369,7 +369,7 @@ accordion
 .open .i_box:after {
   position: absolute;
   content: '';
-  background: url(./img/minus.svg) no-repeat;
+  background: url(../img/minus.svg) no-repeat;
   width: 12px;
   height: 8px;
   top: 50%;
