@@ -73,6 +73,12 @@ img {
   margin-top: 48px;
 }
 
+.btn:hover {
+  background: #EE1F7C;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
 @media (max-width: 767px) {
   .btn {
     font-size: 14px;
@@ -86,7 +92,7 @@ img {
 .btn::after {
   position: absolute;
   content: "";
-  background: url(../img/line.svg);
+  background: url(../img/line.svg) no-repeat;
   width: 24px;
   height: 24px;
   top: 25px;
@@ -172,9 +178,12 @@ img {
   margin-right: 50px;
 }
 
-.header_right .sns_list .sns_list-item img {
-  width: 22.71px;
-  height: 18.46px;
+.header_right .sns_list .sns_list-item i {
+  color: #333;
+}
+
+.header_right .sns_list .sns_list-item i:hover {
+  color: #EE1F7C;
 }
 
 .header_right-btn {
@@ -201,6 +210,12 @@ img {
   height: 24px;
   top: 25px;
   right: 35px;
+}
+
+.header_right-btn:hover {
+  background: #EE1F7C;
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 
 /*========= ナビゲーションのためのCSS ===============*/
@@ -258,17 +273,23 @@ img {
       flex-wrap: wrap;
 }
 
+.nav_container .nav_menu .nav_menu_list a {
+  color: #3E3E3E;
+  font-size: 28px;
+}
+
+.nav_container .nav_menu .nav_menu_list a:hover {
+  color: #EE1F7C;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
 .nav_container .nav_menu .nav_menu_list li {
   display: inline-block;
   position: relative;
   width: 300px;
   text-align: center;
   margin-bottom: 24px;
-}
-
-.nav_container .nav_menu .nav_menu_list li a {
-  color: #3E3E3E;
-  font-size: 28px;
 }
 
 .nav_container .nav_menu .nav_menu_list li span {
@@ -295,7 +316,7 @@ img {
 .nav_container .nav_btn::after {
   position: absolute;
   content: "";
-  background: url(./img/line.svg) no-repeat;
+  background: url(../img/line.svg) no-repeat;
   width: 24px;
   height: 24px;
   top: 25px;
@@ -1110,7 +1131,7 @@ faq
 .card_list_item:not(:last-child):after {
   position: absolute;
   content: "";
-  background: url(./img/frow-arrow.png) no-repeat;
+  background: url(../img/frow-arrow.png) no-repeat;
   width: 42px;
   height: 9px;
   top: 85px;
@@ -1136,8 +1157,8 @@ faq
 .card_list_item .card_list_item_title span {
   color: #fff;
   background: #3E3E3E;
-  padding: 6px 27px;
-  margin-right: 16px;
+  padding: 6px 20px;
+  margin-right: 7px;
 }
 
 .card_list_item .card_list_item_text {
@@ -1197,7 +1218,7 @@ faq
 
 .price_table .w {
   width: 70px;
-  background: url(./img/line2.svg) no-repeat;
+  background: url(../img/line2.svg) no-repeat;
   background-position: center;
 }
 
@@ -1455,6 +1476,16 @@ faq
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.footer_sns_list a {
+  color: #333;
+}
+
+.footer_sns_list a:hover {
+  color: #EE1F7C;
+  -webkit-transition: .3s;
+  transition: .3s;
 }
 
 .footer_sns_item {

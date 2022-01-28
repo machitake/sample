@@ -91,6 +91,11 @@ $bg-color: #EFF0F2;
   margin: 0 auto;
   margin-top: 48px;
 
+  &:hover {
+    background: $primary-color;
+    transition: .3s;
+  }
+
 
   @include mq('sp') {
     font-size: 14px;
@@ -103,7 +108,7 @@ $bg-color: #EFF0F2;
   &::after {
     position: absolute;
     content: "";
-    background: white;
+    background: url(../img/line.svg)no-repeat;
     width: 24px;
     height: 24px;
     top: 25px;
@@ -162,9 +167,13 @@ $bg-color: #EFF0F2;
 
     .sns_list-item {
       margin-right: 50px;
-      img {
-        width :22.71px;
-        height: 18.46px;
+
+      i {
+        color: #333;
+
+        &:hover {
+          color: $primary-color;
+        }
       }
     }
   }
@@ -186,11 +195,16 @@ $bg-color: #EFF0F2;
   &::after {
     position: absolute;
     content: "";
-    background: url(./img/line.svg)no-repeat;
+    background: url(../img/line.svg)no-repeat;
     width: 24px;
     height: 24px;
     top: 25px;
     right: 35px;
+  }
+
+  &:hover {
+    background: $primary-color;
+    transition: .3s;
   }
 }
 /*========= ナビゲーションのためのCSS ===============*/
@@ -237,6 +251,17 @@ z-index:999;
     .nav_menu_list {
       display: flex;
       flex-wrap: wrap;
+
+
+      a {
+        color: $main-color;
+        font-size: 28px;
+
+        &:hover {
+          color: $primary-color;
+          transition: .3s;
+        }
+      }
       
       li {
         display: inline-block;
@@ -245,10 +270,6 @@ z-index:999;
         text-align: center;
         margin-bottom: 24px;
 
-        a {
-          color: $main-color;
-          font-size: 28px;
-        }
         span {
           position: absolute;
           display: inline-block;
@@ -275,7 +296,7 @@ z-index:999;
     &::after {
       position: absolute;
       content: "";
-      background: url(./img/line.svg)no-repeat;
+      background: url(../img/line.svg)no-repeat;
       width: 24px;
       height: 24px;
       top: 25px;
@@ -336,7 +357,7 @@ accordion
         &::after {
           position: absolute;
           content: '';
-          background: url(./img/plus.svg)no-repeat;
+          background: url(../img/plus.svg)no-repeat;
           width: 12px;
           height: 8px;
           top: 50%;
@@ -355,7 +376,7 @@ accordion
 
   position: absolute;
   content: '';
-  background: url(./img/minus.svg)no-repeat;
+  background: url(../img/minus.svg)no-repeat;
   width: 12px;
   height: 8px;
   top: 50%;
@@ -1033,7 +1054,7 @@ opacity: 0;
   &:not(:last-child):after {
     position: absolute;
     content: "";
-    background: url(./img/frow-arrow.png)no-repeat;
+    background: url(../img/frow-arrow.png)no-repeat;
     width: 42px;
     height: 9px;
     top: 85px;
@@ -1059,8 +1080,8 @@ opacity: 0;
     span {
       color: #fff;
       background: $main-color;
-      padding: 6px 27px;
-      margin-right: 16px;
+      padding: 6px 20px;
+      margin-right: 7px;
     }
   }
 
@@ -1123,7 +1144,7 @@ opacity: 0;
 
   .w {
     width: 70px;
-    background: url(./img/line2.svg)no-repeat;
+    background: url(../img/line2.svg)no-repeat;
     background-position: center;
   }
 
@@ -1365,6 +1386,15 @@ opacity: 0;
 .footer_sns_list {
   display: flex;
   justify-content: center;
+
+  a {
+    color: #333;
+
+    &:hover {
+      color: $primary-color;
+      transition: .3s;
+    }
+  }
 }
 
 .footer_sns_item {
