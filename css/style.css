@@ -620,6 +620,10 @@ faq
   }
 }
 
+.top .top_left .btn {
+  margin-left: 0;
+}
+
 .top .top_right {
   position: relative;
   width: 468px;
@@ -962,6 +966,7 @@ faq
 .benefit_list .benefit_list_box .benefit_list_title .number {
   position: absolute;
   font-size: 56px;
+  font-family: DIN 2014;
   color: #EE1F7C;
   left: -100px;
   top: 50%;
@@ -1014,6 +1019,11 @@ faq
   top: 65px;
   left: 0;
   z-index: 10;
+}
+
+.voice2-list-item .voice2-item-img img {
+  width: 496px;
+  height: 341px;
 }
 
 .voice2-list-item .voice2-item-box-bg {
