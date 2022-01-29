@@ -276,6 +276,7 @@ img {
 .nav_container .nav_menu .nav_menu_list a {
   color: #3E3E3E;
   font-size: 28px;
+  font-family: Oswald;
 }
 
 .nav_container .nav_menu .nav_menu_list a:hover {
@@ -965,8 +966,6 @@ faq
 
 .benefit_list .benefit_list_box .benefit_list_title .number {
   position: absolute;
-  font-size: 56px;
-  font-family: DIN 2014;
   color: #EE1F7C;
   left: -100px;
   top: 50%;

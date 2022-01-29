@@ -256,7 +256,8 @@ z-index:999;
       a {
         color: $main-color;
         font-size: 28px;
-
+        font-family: Oswald;
+        
         &:hover {
           color: $primary-color;
           transition: .3s;
@@ -881,8 +882,6 @@ opacity: 0;
 
       .number {
         position: absolute;
-        font-size: 56px;
-        font-family: DIN 2014;
         color:$primary-color;
         left: -100px;
         top: 50%;
