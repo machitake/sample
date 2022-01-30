@@ -716,6 +716,7 @@ opacity: 0;
     display: flex;
     justify-content: center;
     margin-top: 47px;
+    margin-bottom: 47px;
 
     @include mq('sp') {
       display: block;
@@ -1216,9 +1217,11 @@ opacity: 0;
 
 .infection_text {
   margin-left: auto;
+  margin-right: 76px;
   margin-bottom: 240px;
   font-size: 14px;
   width: 600px;
+  text-align: right;
 
   @include mq('sp') {
     width: 100%;
@@ -1232,10 +1235,22 @@ opacity: 0;
     display: flex;
     flex-wrap: wrap;
     margin-bottom: 32px;
+    text-align: left; 
     li {
+      position: relative;
       width: 300px;
-      list-style: square;
       padding-left: 20px;
+
+      &::before {
+        position: absolute;
+        content: '';
+        width: 10px;
+        height: 10px;
+        top: 50%;
+        left: 0px;
+        transform: translateY(-50%);
+        background: url(../img/square.svg);
+      }
     }
   }
 }

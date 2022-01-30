@@ -772,6 +772,7 @@ faq
       -ms-flex-pack: center;
           justify-content: center;
   margin-top: 47px;
+  margin-bottom: 47px;
 }
 
 @media (max-width: 767px) {
@@ -1302,9 +1303,11 @@ faq
 
 .infection_text {
   margin-left: auto;
+  margin-right: 76px;
   margin-bottom: 240px;
   font-size: 14px;
   width: 600px;
+  text-align: right;
 }
 
 @media (max-width: 767px) {
@@ -1325,12 +1328,25 @@ faq
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   margin-bottom: 32px;
+  text-align: left;
 }
 
 .infection_text ul li {
+  position: relative;
   width: 300px;
-  list-style: square;
   padding-left: 20px;
+}
+
+.infection_text ul li::before {
+  position: absolute;
+  content: '';
+  width: 10px;
+  height: 10px;
+  top: 50%;
+  left: 0px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  background: url(../img/square.svg);
 }
 
 .q_position {
