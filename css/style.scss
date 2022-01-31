@@ -684,7 +684,7 @@ opacity: 0;
 
 .profile_right {
   background: $bg-color;
-  width: 51%;
+  width: 58%;
 
   @include mq('sp') {
     width: 90%;
@@ -703,8 +703,10 @@ opacity: 0;
   }
 
   .profile_text {
+    font-family: Noto Sans CJK JP;
     font-size: 14px;
     padding: 0 110px;
+    line-height: 22px;
 
     @include mq('sp') {
       font-size: 12px;

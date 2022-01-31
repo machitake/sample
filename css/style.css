@@ -729,7 +729,7 @@ faq
 
 .profile_right {
   background: #EFF0F2;
-  width: 51%;
+  width: 58%;
 }
 
 @media (max-width: 767px) {
@@ -753,8 +753,10 @@ faq
 }
 
 .profile_right .profile_text {
+  font-family: Noto Sans CJK JP;
   font-size: 14px;
   padding: 0 110px;
+  line-height: 22px;
 }
 
 @media (max-width: 767px) {
