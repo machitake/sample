@@ -853,6 +853,17 @@ opacity: 0;
  /* benefit
 =============================================================*/
 
+.benefit {
+  text-align: center;
+  h2 {
+    margin-bottom: 0;
+  }
+
+  p {
+    margin-bottom: 67px;
+  }
+}
+
 .benefit_list {
   display: flex;
   align-items: center;

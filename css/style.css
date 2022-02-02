@@ -923,6 +923,18 @@ faq
 
 /* benefit
 =============================================================*/
+.benefit {
+  text-align: center;
+}
+
+.benefit h2 {
+  margin-bottom: 0;
+}
+
+.benefit p {
+  margin-bottom: 67px;
+}
+
 .benefit_list {
   display: -webkit-box;
   display: -ms-flexbox;
